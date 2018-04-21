@@ -38,10 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7424AABB20892F46001C0FFC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
 		745DB7042088DE4F00201EA1 /* HandySolver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandySolver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		745DB7072088DE4F00201EA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		745DB7092088DE4F00201EA1 /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
-		745DB70C2088DE4F00201EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		745DB7112088DE5500201EA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		745DB7142088DE5500201EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		745DB7162088DE5500201EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -336,7 +336,7 @@
 		745DB70B2088DE4F00201EA1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				745DB70C2088DE4F00201EA1 /* Base */,
+				7424AABB20892F46001C0FFC /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

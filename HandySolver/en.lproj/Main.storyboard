@@ -34,18 +34,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vCc-hM-BN5">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="50" estimatedRowHeight="50" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vCc-hM-BN5">
                                 <rect key="frame" x="0.0" y="64" width="375" height="533"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ItemCell" rowHeight="50" id="cxe-al-NUC" customClass="ItemCell" customModule="HandySolver" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cxe-al-NUC" id="9iz-Hq-cOp">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cxe-al-NUC" id="9iz-Hq-cOp">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aww-vT-TEx">
+                                                <view contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aww-vT-TEx">
                                                     <rect key="frame" x="10" y="10" width="355" height="30"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CFJ-ra-0jH">
@@ -92,9 +92,10 @@
                                                 </view>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="aww-vT-TEx" secondAttribute="bottom" constant="10" id="7It-tM-14m"/>
+                                                <constraint firstItem="aww-vT-TEx" firstAttribute="centerY" secondItem="9iz-Hq-cOp" secondAttribute="centerY" id="1T9-Lq-Wb1"/>
+                                                <constraint firstAttribute="bottom" secondItem="aww-vT-TEx" secondAttribute="bottom" constant="10" id="TEV-vR-pt3"/>
+                                                <constraint firstItem="aww-vT-TEx" firstAttribute="centerX" secondItem="9iz-Hq-cOp" secondAttribute="centerX" id="fpv-fx-q6R"/>
                                                 <constraint firstItem="aww-vT-TEx" firstAttribute="top" secondItem="9iz-Hq-cOp" secondAttribute="top" constant="10" id="iWM-jv-Kom"/>
-                                                <constraint firstAttribute="trailing" secondItem="aww-vT-TEx" secondAttribute="trailing" constant="10" id="lI5-eD-FPG"/>
                                                 <constraint firstItem="aww-vT-TEx" firstAttribute="leading" secondItem="9iz-Hq-cOp" secondAttribute="leading" constant="10" id="sZH-pH-j5S"/>
                                             </constraints>
                                         </tableViewCellContentView>

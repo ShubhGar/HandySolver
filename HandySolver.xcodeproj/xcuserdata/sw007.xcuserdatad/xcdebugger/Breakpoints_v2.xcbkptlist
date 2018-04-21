@@ -10,13 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HandySolver/ViewControllers/ItemsViewController.swift"
-            timestampString = "545859938.25596"
+            timestampString = "545994470.428135"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "184"
-            endingLineNumber = "184"
-            landmarkName = "ItemsViewController"
-            landmarkType = "21">
+            startingLineNumber = "190"
+            endingLineNumber = "190"
+            landmarkName = "tableView(_:estimatedHeightForRowAt:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -26,13 +26,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HandySolver/ViewControllers/ItemsViewController.swift"
-            timestampString = "545859938.2561851"
+            timestampString = "545994470.428535"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "174"
-            endingLineNumber = "174"
-            landmarkName = "ItemsViewController"
-            landmarkType = "21">
+            startingLineNumber = "180"
+            endingLineNumber = "180"
+            landmarkName = "tableView(_:heightForRowAt:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

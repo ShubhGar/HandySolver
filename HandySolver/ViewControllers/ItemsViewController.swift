@@ -111,6 +111,12 @@ class ItemsViewController: UIViewController {
     
     /// Save or update item
     private func saveData(itemName: String) {
+        if itemName.replacingOccurrences(of: " ", with: "") == "" {
+            let alert = UIAlertController(title: "Error", message: "Please enter a Item name")
+            present(alert, animated: true, completion: nil)
+            
+            return
+        }
         if let item = self.item {
             item.itemName = itemName
             CoreDataStack.saveContext()
@@ -201,7 +207,8 @@ class ItemCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        itemView.roundCorners([.allCorners], radius: 0, borderColor: .black, borderWidth: 2)
+        itemView.setNeedsLayout()
+        itemView.setCirculerViewWithBorder(radis: 0, borderColor: .black, borderWidth: 2)
     }
     
     //Action on delete button

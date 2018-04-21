@@ -12,6 +12,7 @@ import UIKit
 /// Extends UIView with a shortcut method.
 /// - author: SHUBHAM GARG
 extension UIView {
+    // MARK: - Effective wayMake view Circular if view is not resizable
     func roundCorners(_ corners: UIRectCorner, radius: CGFloat, borderColor: UIColor?, borderWidth: CGFloat?) {
         let path = UIBezierPath(roundedRect: self.bounds, byRoundingCorners: corners, cornerRadii: CGSize(width: radius, height: radius))
         
@@ -35,5 +36,11 @@ extension UIView {
         layer.addSublayer(borderLayer)
     }
     
+    // MARK: - Make view Circular when view is resizable
+    func setCirculerViewWithBorder (radis:Float, borderColor:UIColor,borderWidth:Float) {
+        layer.cornerRadius = CGFloat(radis)
+        layer.borderWidth = CGFloat(borderWidth)
+        layer.borderColor = borderColor.cgColor
+    }
     
 }
